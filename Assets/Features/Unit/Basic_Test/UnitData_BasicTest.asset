@@ -1,0 +1,23 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fe2d1b6b2db7f1345ae59c146cf117c4, type: 3}
+  m_Name: UnitData_BasicTest
+  m_EditorClassIdentifier: 
+  unitName: BasicTest
+  unitPrefab: {fileID: 3527666628784042322, guid: dbd7af74156fc254cb70283e5cc457fc, type: 3}
+  maxHealth: 100
+  pointsPerTile: 1000
+  movePointsPerTick: 250
+  attackDamage: 10
+  attackRangeInTiles: 1
+  attackCooldownInTicks: 20
+  visionRangeInTiles: 5

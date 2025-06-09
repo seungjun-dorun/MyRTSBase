@@ -1,0 +1,3 @@
+rep "MyRtsProject/MyRtsProject@14568590549072@cloud"
+  path "/"
+    smartbranch "/main/test branch"

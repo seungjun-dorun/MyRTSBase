@@ -1,0 +1,32 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6351e8c144c610c4bb2dbb6aea991cb6, type: 3}
+  m_Name: UnitData_Worker
+  m_EditorClassIdentifier: 
+  unitName: DefaultUnit
+  unitPrefab: {fileID: 5548083049995584815, guid: b14289db08dc4424b9f217c26226ad68, type: 3}
+  sizeInTiles: {x: 1, y: 1, z: 1}
+  maxHealth: 100
+  pointsPerTile: 1000
+  movePointsPerTick: 200
+  attackDamage: 10
+  attackRangeInTiles: 1
+  attackCooldownInTicks: 20
+  defense: 0
+  visionRangeInTiles: 5
+  creationCost: []
+  creationTimeInTicks: 100
+  role: 1
+  maxCarryCapacity: 50
+  ticksPerGatherAction: 20
+  buildSpeedMultiplier: 1
+  buildableBuildingDataIDs: []
